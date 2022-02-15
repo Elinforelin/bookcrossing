@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap");
+
+.book {
+	font-size: 20px;
+	margin: 10px auto;
+}
+.image {
+	height: 370px;
+	width: 250px;
+	margin: 10px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+}
+.disabledBook {
+	height: 370px;
+	width: 250px;
+	margin: 10px;
+	opacity: 0.5;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+}
+.main {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	flex-flow: row wrap;
+}
+.addBtn {
+	margin: 10px auto;
+	display: flex;
+	height: 40px;
+	width: 100%;
+	background-color: rgb(34, 33, 34);
+	border-radius: 5px;
+	color: blanchedalmond;
+	font-family: "Red Hat Mono", monospace;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 600;
+	justify-content: center;
+}
+.addBtn:disabled {
+	opacity: 0.5;
+}
+/* .title {
+	display: flex;
+} */
